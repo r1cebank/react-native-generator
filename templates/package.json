@@ -1,0 +1,62 @@
+{
+  "name": "react_native_boilerplate",
+  "version": "0.0.1",
+  "description": ":beginner: React Native boilerplate using redux and webpack",
+  "author": "Siyuan Gao <siyuangao@gmail.com> (http://ricebank.ca)",
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Native"
+  ],
+  "scripts": {
+    "android-setup-port": "adb reverse tcp:8081 tcp:8080",
+    "bundle": "rnws bundle",
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive test/*.js",
+    "lint": "eslint src -f node_modules/eslint-html-reporter/reporter.js -o report.html",
+    "start": "rnws start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r1cebank/react-native-boilerplate"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2 <4"
+  },
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "react": "^0.14.8",
+    "react-native": "^0.24.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.4.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-native": "^1.5.6",
+    "babel-preset-stage-1": "^6.3.13",
+    "chai": "^3.5.0",
+    "enzyme": "^2.2.0",
+    "eslint": "~2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-html-reporter": "^0.5.2",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.0.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-native-mock": "0.0.7",
+    "react-native-webpack-server": "^0.9.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-notifier": "^1.3.0"
+  }
+}
