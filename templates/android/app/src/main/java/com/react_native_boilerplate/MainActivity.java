@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "react_native_boilerplate";
+        return "<%= appName =%>";
     }
 
     /**
