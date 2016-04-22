@@ -1,4 +1,6 @@
-# Slush React-native-generator [![Build Status](https://secure.travis-ci.org/r1cebank/slush-react-native-generator.png?branch=master)](https://travis-ci.org/r1cebank/slush-react-native-generator) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-native-generator.png)](http://badges.enytc.com/for/npm/slush-react-native-generator)
+# Slush React-native-generator 
+[![Circle CI](https://circleci.com/gh/r1cebank/react-native-generator.svg?style=svg)](https://circleci.com/gh/r1cebank/react-native-generator)
+[![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-native-generator.png)](http://badges.enytc.com/for/npm/slush-react-native-generator)
 
 > Generate a react native project
 
