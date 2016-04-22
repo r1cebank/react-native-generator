@@ -85,7 +85,7 @@ gulp.task('default', function (done) {
       if (!answers.moveon) {
         return done();
       }
-      answers.appNameSlug = _.slugify('Slush ' + answers.appName);
+      answers.appNameSlug = _.underscored(answers.appName);
       console.log(answers);
       gulp.src(__dirname + '/templates/**')
       .pipe(debug())
