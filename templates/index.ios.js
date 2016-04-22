@@ -6,4 +6,4 @@ const {
   AppRegistry
 } = React;
 
-AppRegistry.registerComponent("<%= appNameSlug =%>", () => Root);
+AppRegistry.registerComponent("<%= appNameSlug %>", () => Root);

@@ -15,7 +15,8 @@ template = require('gulp-template'),
 rename = require('gulp-rename'),
 _ = require('underscore.string'),
 inquirer = require('inquirer'),
-path = require('path');
+path = require('path'),
+debug = require('gulp-debug');
 
 function format(string) {
   var username = string.toLowerCase();
@@ -80,13 +81,14 @@ gulp.task('default', function (done) {
     message: 'Continue?'
   }];
   //Ask
-  inquirer.prompt(prompts,
-    function (answers) {
+  inquirer.prompt(prompts).then(function (answers) {
       if (!answers.moveon) {
         return done();
       }
       answers.appNameSlug = _.slugify('Slush ' + answers.appName);
+      console.log(answers);
       gulp.src(__dirname + '/templates/**')
+      .pipe(debug())
       .pipe(template(answers))
       .pipe(rename(function (file) {
         if (file.basename[0] === '_') {
@@ -98,6 +100,6 @@ gulp.task('default', function (done) {
       .pipe(install())
       .on('end', function () {
         done();
-      });
+      }).resume();;
     });
   });

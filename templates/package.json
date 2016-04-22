@@ -1,8 +1,8 @@
 {
-  "name": "<%= appNameSlug =%>",
+  "name": "<%= appNameSlug %>",
   "version": "0.0.1",
   "description": ":beginner: React Native boilerplate using redux and webpack",
-  "author": "<%= authorName =%> <<%= authorEmail =%>> (http://ricebank.ca)",
+  "author": "<%= authorName %> <<%= authorEmail %>> (http://ricebank.ca)",
   "license": "MIT",
   "keywords": [
     "React",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<%= userName =%>/<%= appNameSlug =%>"
+    "url": "https://github.com/<%= userName %>/<%= appNameSlug %>"
   },
   "engines": {
     "node": ">=4",
