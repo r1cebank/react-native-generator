@@ -1,7 +1,7 @@
 {
     "name": "slush-react-native-generator",
     "description": "Generate a react native project",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "homepage": "https://github.com/r1cebank/slush-react-native-generator",
     "author": {
         "name": "Siyuan Gao",
