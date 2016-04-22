@@ -1,3 +1,3 @@
-rootProject.name = '<%= appName =%>'
+rootProject.name = '<%= appNameSlug =%>'
 
 include ':app'
