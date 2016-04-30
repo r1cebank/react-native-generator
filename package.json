@@ -1,18 +1,18 @@
 {
   "name": "slush-react-native-generator",
   "description": "Generate a react native project",
-  "version": "0.1.7",
-  "homepage": "https://github.com/r1cebank/slush-react-native-generator",
+  "version": "0.1.8",
+  "homepage": "https://github.com/r1cebank/react-native-generator",
   "author": {
     "name": "Siyuan Gao",
     "email": "siyuangao@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/r1cebank/slush-react-native-generator.git"
+    "url": "git://github.com/r1cebank/react-native-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/r1cebank/slush-react-native-generator/issues"
+    "url": "https://github.com/r1cebank/react-native-generator/issues"
   },
   "license": "MIT",
   "main": "slushfile.js",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "gulp-debug": "^2.1.2"
   },
-  "readme": "# Slush React-native-generator [![Build Status](https://secure.travis-ci.org/r1cebank/slush-react-native-generator.png?branch=master)](https://travis-ci.org/r1cebank/slush-react-native-generator) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-native-generator.png)](http://badges.enytc.com/for/npm/slush-react-native-generator)\n\n> Generate a react native project\n\n\n## Getting Started\n\nInstall `slush-react-native-generator` globally:\n\n```bash\n$ npm install -g slush-react-native-generator\n```\n\n### Usage\n\nCreate a new folder for your project:\n\n```bash\n$ mkdir my-slush-react-native-generator\n```\n\nRun the generator from within the new folder:\n\n```bash\n$ cd my-slush-react-native-generator && slush react-native-generator\n```\n\n## Getting To Know Slush\n\nSlush is a tool that uses Gulp for project scaffolding.\n\nSlush does not contain anything \"out of the box\", except the ability to locate installed slush generators and to run them with liftoff.\n\nTo find out more about Slush, check out the [documentation](https://github.com/slushjs/slush).\n\n## Contributing\n\nSee the [CONTRIBUTING Guidelines](https://github.com/r1cebank/slush-react-native-generator/blob/master/CONTRIBUTING.md)\n\n## Support\nIf you have any problem or suggestion please open an issue [here](https://github.com/r1cebank/slush-react-native-generator/issues).\n\n## License \n\nThe MIT License\n\nCopyright (c) 2016, Siyuan Gao\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\n",
+  "readme": "# Slush React-native-generator [![Build Status](https://secure.travis-ci.org/r1cebank/react-native-generator.png?branch=master)](https://travis-ci.org/r1cebank/slush-react-native-generator) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-native-generator.png)](http://badges.enytc.com/for/npm/slush-react-native-generator)\n\n> Generate a react native project\n\n\n## Getting Started\n\nInstall `slush-react-native-generator` globally:\n\n```bash\n$ npm install -g slush-react-native-generator\n```\n\n### Usage\n\nCreate a new folder for your project:\n\n```bash\n$ mkdir my-slush-react-native-generator\n```\n\nRun the generator from within the new folder:\n\n```bash\n$ cd my-slush-react-native-generator && slush react-native-generator\n```\n\n## Getting To Know Slush\n\nSlush is a tool that uses Gulp for project scaffolding.\n\nSlush does not contain anything \"out of the box\", except the ability to locate installed slush generators and to run them with liftoff.\n\nTo find out more about Slush, check out the [documentation](https://github.com/slushjs/slush).\n\n## Contributing\n\nSee the [CONTRIBUTING Guidelines](https://github.com/r1cebank/slush-react-native-generator/blob/master/CONTRIBUTING.md)\n\n## Support\nIf you have any problem or suggestion please open an issue [here](https://github.com/r1cebank/slush-react-native-generator/issues).\n\n## License \n\nThe MIT License\n\nCopyright (c) 2016, Siyuan Gao\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\n",
   "readmeFilename": "README.md",
   "gitHead": "cdbb96b1ade01f0d34b4f039dd096cbc59758d65",
   "_id": "slush-react-native-generator@0.1.5",
