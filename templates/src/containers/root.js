@@ -1,18 +1,20 @@
 /* @flow */
 
 import React from 'react-native';
-import { Provider } from 'react-redux';
-import configureStore from '../store/configure-store';
-import Scene from '../components/scene';
+import { Actions, Scene, Router } from 'react-native-router-flux';
 
-const store = configureStore();
+import Home from '../components/home';
+
+const scenes = Actions.create(
+    <Scene key="root">
+    <Scene key="home" component={Home} title="Home" />
+    </Scene>
+);
 
 class Root extends React.Component {
     render() {
         return (
-            <Provider store={store}>
-            <Scene />
-            </Provider>
+            <Router scenes={scenes} />
         );
     }
 }
